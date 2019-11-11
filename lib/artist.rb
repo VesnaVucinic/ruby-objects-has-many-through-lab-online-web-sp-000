@@ -17,6 +17,7 @@ class Artist
     Song.new(name, self, genre)
   end
 
+#
   def songs 
     song.all.select do |song|
       song.artist == self
