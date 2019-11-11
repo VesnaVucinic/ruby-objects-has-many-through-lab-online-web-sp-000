@@ -23,6 +23,7 @@ class Genre
     #songs.map(&:artist)
     songs.map do |song|
       song.artist
+    end
   end
 
   def add_song(song)
