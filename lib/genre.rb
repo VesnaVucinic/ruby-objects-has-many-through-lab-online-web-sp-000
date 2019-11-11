@@ -22,7 +22,7 @@ class Genre
 #tags.map(&:name) is sort from of tags.map{|tag| tag.name}
     songs.map(&:artist)
     songs.map do |song|
-      song
+      song.artist
   end
 
   def add_song(song)
