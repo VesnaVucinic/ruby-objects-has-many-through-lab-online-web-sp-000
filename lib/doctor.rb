@@ -22,6 +22,7 @@ class Doctor
 
   def patients
     appointments.map(&:patient)
+    
   end
 end
 
