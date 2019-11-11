@@ -1,4 +1,4 @@
-Learn more or give us feedback
+
 class Appointment
   attr_accessor :date, :doctor, :patient
 
