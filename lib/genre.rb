@@ -12,7 +12,7 @@ class Genre
     @@all
   end
 
-#
+#The Genre class needs an instance method, #songs, that iterates through all songs and finds the songs that belong to that genre.
   def songs
     Song.all { |song| song.genre == self }
   end
