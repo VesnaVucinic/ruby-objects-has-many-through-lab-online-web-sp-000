@@ -17,7 +17,7 @@ class Genre
     Song.all { |song| song.genre == self }
   end
 
-#
+#The Genre class needs an instance method, #artists, that iterates over the genre's collection of songs and collects the artist that owns each song.
   def artists
     songs.map(&:artist)
   end
