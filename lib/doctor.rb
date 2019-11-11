@@ -21,7 +21,13 @@ class Doctor
     end
   end
   
+  def patients
+    appointments.collect {|patient| patient.doctor}
+  end
   
+end
+
+
     
     
     
