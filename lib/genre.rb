@@ -20,7 +20,8 @@ class Genre
   end
 
   def artists
-    songs.map(&:artist)
+    #songs.map(&:artist)
+    
   end
 
   def add_song(song)
