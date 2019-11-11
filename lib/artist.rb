@@ -19,9 +19,7 @@ class Artist
 
 #The Artist class needs an instance method, #songs, that #iterates through all songs and finds the songs that #belong to that artist. Try using select to achieve this
   def songs 
-    Song.all.select do |song|
-      song.artist == self
-    end
+    Song.all.select { |song| song.artist == self }
   end
  
   
