@@ -23,6 +23,7 @@ class Artist
       song.artist == self
     end
   end
+ 
   
   def genres 
     #song.all.collect do |genre|
