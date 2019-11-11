@@ -21,7 +21,7 @@ class Genre
 
   def artists
     #songs.map(&:artist)
-    song.genre.all.collect |song|
+    Song.genre.all.collect |song|
       song.artist
     end
 
