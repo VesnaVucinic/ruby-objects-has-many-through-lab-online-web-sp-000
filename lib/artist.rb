@@ -26,7 +26,7 @@ class Artist
  
   
   def genres 
-    #song.all.collect do |genre|
+    #songs.collect do |genre|
      # genre.song 
     songs.map(&:genre)
     end
