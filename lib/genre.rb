@@ -13,9 +13,9 @@ class Genre
   end
 
   def songs
-    #Song.all { |song| song.genre == self }
-    Song.all do |song|
-      song.genre == self
+    Song.all { |song| song.genre == self }
+    #Song.all do |song|
+      #song.genre == self
     end
   end
 
