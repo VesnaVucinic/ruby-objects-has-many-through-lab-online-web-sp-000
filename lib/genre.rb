@@ -19,7 +19,7 @@ class Genre
 
 #The Genre class needs an instance method, #artists, that iterates over the genre's collection of songs and collects the artist that owns each song.
   def artists
-    #
+#tags.map(&:name) is sort from of tags.map{|tag| tag.name}
     songs.map(&:artist)
     songs.map do |artist|
       artist.song
