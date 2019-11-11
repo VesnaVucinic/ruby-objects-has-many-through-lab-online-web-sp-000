@@ -30,7 +30,7 @@ class Artist
      # genre.song 
     songs.map(&:genre)
     end
-  end
+end
   
 
 
