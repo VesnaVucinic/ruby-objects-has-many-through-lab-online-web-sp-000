@@ -20,9 +20,9 @@ class Genre
   
   def artist
       #tags.map(&:name) is sort from of tags.map{|tag| tag.name}
-      # songs.map(&:artist)
-      song.genre.all.collect |song|
-      song.artist
+       songs.map(&:artist)
+      #song.genre.all.collect |song|
+      #song.artist
     end
   end
   
