@@ -17,7 +17,7 @@ class Artist
     Song.new(name, self, genre)
   end
 
-#The Artist class needs an instance method, #songs, that #iterates through all songs and finds the songs that #belong to that artist. Try using select to achieve this.
+#The Artist class needs an instance method, #songs, that #iterates through all songs and finds the songs that #belong to that artist. Try using select to achieve this
   def songs 
     song.all.select do |song|
       song.artist == self
